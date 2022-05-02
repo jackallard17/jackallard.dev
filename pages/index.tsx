@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const Home: NextPage = () => {
   return (
     <div className="px-4 py-5 my-5 text-center">
-      <Image className="img-fluid rounded-circle" src="/../public/assets/JA-Headshot.jpg" alt="" width="250" height="250" />
+      <Image className="img-fluid rounded-circle" src="/../.next/static/img/JA-Headshot.jpg" alt="" width="250" height="250" />
       <h1 className="display-5 fw-bold">Jack Allard</h1>
       <div className="col-lg-6 mx-auto">
         <p className="lead mb-4">
