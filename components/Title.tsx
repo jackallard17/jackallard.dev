@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import React from 'react';
 import { createStyles, Container, Text, Button, Group, useMantineTheme, ColorSchemeProvider, MantineProvider } from '@mantine/core';
-import ThemeToggle from './ThemeToggle';
 
 const BREAKPOINT = '@media (max-width: 755px)';
 
@@ -86,7 +85,6 @@ function Title() {
 
   return (
     <>
-      <ColorSchemeProvider colorScheme={'dark'} toggleColorScheme={ThemeToggle}>
         <div className={classes.wrapper}>
           <Container size={700} className={classes.inner}>
             <h1 className={classes.title}>
@@ -108,7 +106,7 @@ function Title() {
                 variant="gradient"
                 gradient={{ from: 'purple', to: 'pink' }}
               >
-                Learn More
+               Resume 
               </Button>
 
               <Button
@@ -124,7 +122,6 @@ function Title() {
             </Group>
           </Container>
         </div>
-        </ColorSchemeProvider>
       </>
       );
 }

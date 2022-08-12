@@ -2,7 +2,6 @@ import type { NextPage } from 'next'
 import React from 'react';
 import { useState } from 'react';
 import { ColorScheme, Button, Group, useMantineTheme, ColorSchemeProvider, MantineProvider } from '@mantine/core';
-import ThemeToggle from '../components/ThemeToggle';
 import Title from '../components/Title';
 import { BadgeCard } from '../components/BadgeCard/BadgeCard';
 import attributes from '../components/BadgeCard/attributes.json'
