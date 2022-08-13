@@ -101,12 +101,14 @@ function Title() {
 
             <Group className={classes.controls}>
               <Button
+                component="a"
+                href="./JackAllardResume.pdf"
                 size="xl"
                 className={classes.control}
                 variant="gradient"
                 gradient={{ from: 'purple', to: 'pink' }}
               >
-               Resume 
+               View Resume
               </Button>
 
               <Button
