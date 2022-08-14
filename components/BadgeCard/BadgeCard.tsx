@@ -76,10 +76,10 @@ export function BadgeCard({ image, title, description, country, badges }: BadgeC
         Source Code
         </Button> */}
               <Button
-                size="xl"
+                size="md"
                 // className={classes.control}
-                variant="gradient"
-                gradient={{ from: 'purple', to: 'pink' }}
+                variant="light"
+                color="teal"
               >
               Source Code
               </Button>
